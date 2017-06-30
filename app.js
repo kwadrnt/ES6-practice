@@ -19,8 +19,16 @@ console.log(movie);
 // another ES6 let example (block inside block scoping)
 function generalAssemly(){
   let findAJob = true;
-  let 
+  let saying = "You can do it!";
+  console.log('Before if:', saying);
+
+  if(findAJob){
+    let saying = "I will land a job if I keep working at it!";
+    console.log('Inside if:', saying)
+  }
+  console.log('After if:', saying)
 }
+generalAssemly();
 
 // Arrow Functions =>
 
